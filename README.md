@@ -1,2 +1,2 @@
 # Apolo
-To study
+Just to study
