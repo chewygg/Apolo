@@ -1,7 +1,7 @@
-while true:
+while True:
     rack=str(input("RACK: "))
-    ru=float(input("RU: "))
-    ps=float(input("Pisos: "))
+    ru=int(input("RU: "))
+    ps=int(input("Pisos: "))
     i=((ru*5)+20)/100
     p=ps*0.6
     print("RACK cliente: ",rack)
