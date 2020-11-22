@@ -7,3 +7,4 @@ while True:
     print("RACK cliente: ",rack)
     print(i,"metros no rack destino",p,"metros de calha")
     print("total: ",p+i)
+#comentário
