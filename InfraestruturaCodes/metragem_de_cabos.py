@@ -1,3 +1,5 @@
+# Script aletório para testar commit no vscode
+
 while True:
     rack=str(input("RACK: "))
     ru=int(input("RU: "))
@@ -7,4 +9,4 @@ while True:
     print("RACK cliente: ",rack)
     print(i,"metros no rack destino",p,"metros de calha")
     print("total: ",p+i)
-#coment�rio
+#comentário
