@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Script para extrair informações do sistema
 
 echo -n "1 - Hostname: "
