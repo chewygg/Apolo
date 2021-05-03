@@ -48,3 +48,12 @@ sudo systemctl start graylog-server.service
 sudo systemctl --type=service --state=active | grep graylog
 
 
+############## RSYSLOG
+
+UDP:
+*.* @graylog.example.org:514;RSYSLOG_SyslogProtocol23Format
+
+TCP:
+*.* @@graylog.example.org:514;RSYSLOG_SyslogProtocol23Format
+
+
